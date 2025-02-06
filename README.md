@@ -1,5 +1,7 @@
 # Electron Overlay Click Interceptor
 
+
+![til](./images/gif.gif)
 ## Overview
 
 This Electron application for Windows creates a fullscreen, transparent overlay that intercepts global mouse clicks across the entire screen. The primary purpose is to demonstrate low-level mouse event handling and overlay interaction in an Electron desktop application.
