@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+    #overlay-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      padding: 20px 40px;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      z-index: 9999;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      /* Debug outline to see exact clickable area */
+      outline: 2px solid yellow;
+    }
+  </style>
+</head>
+<body>
+  <button id="overlay-button">Click Me!</button>
+  <script src="renderer.js"></script>
+</body>
+</html>

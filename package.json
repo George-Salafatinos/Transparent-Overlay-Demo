@@ -1,0 +1,14 @@
+{
+  "name": "electron-overlay-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.1.0"
+  },
+  "dependencies": {
+    "global-mouse-events": "^1.1.2"
+  }
+}
